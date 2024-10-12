@@ -10,3 +10,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+/*Titlo*/
+.todos-title {
+  font-size: 80px;
+  color: #eac1c1;
+  margin-bottom: 30px;
+  font-weight: 100;
+
+}
+
+/*Recuadro de tareas*/
+.home-container {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px; 
+   border: 1px solid white; 
+}
+
+
+/*Demas tareas*/
+.items-left {
+  color: #999;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px 20px;
+  border-top: 1px solid #ededed;  /* Añade borde superior para separar del recuadro */
+  background-color: #fff;
+}
+  
+/*Color Cruz*/
+    .remove-icon {
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+ /* Efecto de cruz */
+  .remove-icon:hover {
+    color: #965757;  /* Cambia el color al pasar el ratón */
+  }
+  
+
+
+
+  
